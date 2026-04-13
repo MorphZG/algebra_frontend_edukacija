@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graficki elementi</title>
+</head>
+<body>
+  <canvas id="mojCanvas" width="600" height="300">
+
+  </canvas>
+  <script>
+    let canvas = document.getElementById("mojCanvas");
+    let ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#f00";
+    ctx.fillRect(100, 50, 100, 50)
+  </script>
+  
+</body>
+</html>
