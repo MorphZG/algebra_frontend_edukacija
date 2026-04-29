@@ -1,0 +1,8 @@
+Tablice, 21.04.2026.
+Zahtjevi:
+
+1. Unutar mape napraviti novi HTML dokument.
+2. Unutar dokumenta tablicom prikazati raspored sati u ssrednjoj skoli. Od Ponedeljka do Petka. Raspored i predmete birati po volji.
+2.1 Svaki dan mora imati 7 skolskih sati.
+2.2 Svaki dan mora imati barem jedan blok sat (dva skolska sata istog predmeta za redom).
+2.3 Petkom nastava pocinje od nultog skolskog stata, na sve ostale dane nastava pocinje prvog skolskog sata.
