@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-klase</title>
+
+    <style>
+        body {
+            font-size: 22px;
+        }
+
+        header {
+            color: red;
+        }
+
+        footer {
+            color: green;
+        }
+
+        p:first-child {
+            text-decoration: underline wavy rebeccapurple;
+        }
+
+        p:last-child {
+            font-size: 8px;
+        }
+
+        p:nth-child(2) {
+            font-family: monospace;
+            text-decoration: overline solid orange;
+        }
+
+        p:first-of-type {
+            font-weight: bold;
+        }
+
+        p:last-of-type {
+            text-transform: uppercase;
+        }
+
+        p:nth-of-type(2) {
+            color: aqua;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Zaglavlje</h1>
+        <p>Odlomak</p>
+    </header>
+    <section>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+    </section>
+    <section>
+        <h1>Naslov sekcije</h1>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+    </section>
+    <footer>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+        <p>Odlomak</p>
+    </footer>
+</body>
+
+</html>
