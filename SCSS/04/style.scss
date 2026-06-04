@@ -1,0 +1,63 @@
+$color1: #eee;
+$color2: #333;
+$color3: #800;
+
+$font1: sans-serif;
+$font2: monospace;
+
+@mixin has-content {
+    section {
+        @content;
+    }
+}
+
+@include has-content {
+    .odlomak {
+        border: 8px dotted $color2;
+    }
+}
+
+@mixin mobile() {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @media (min-width: 600px) and (max-width: 1023px) {
+        @content
+    }
+}
+
+body {
+    background-color: $color1;
+    color: $color2;
+    font-family: $font1;
+}
+
+body {
+    @include mobile() {
+        background-color: yellow;
+    }
+
+    @include tablet() {
+        background-color: rebeccapurple;
+    }
+}
+
+@mixin margin-mix($margin...) {
+    margin: $margin;
+}
+
+header {
+    @include margin-mix(20px)
+}
+
+section {
+    @include margin-mix(2em auto);
+    width: 50%;
+
+    article {
+        @include margin-mix(5rem);
+    }
+}

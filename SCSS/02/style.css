@@ -1,0 +1,19 @@
+body {
+  background-color: #eee;
+  color: #333;
+  font-family: Tahoma, sans-serif;
+}
+
+h1 {
+  color: #080;
+  background-color: #baddad;
+}
+
+a {
+  font-family: monospace;
+}
+
+article {
+  margin: 1em;
+  border: 2px solid #080;
+}/*# sourceMappingURL=style.css.map */

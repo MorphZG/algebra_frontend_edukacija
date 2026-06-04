@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: #eee;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #eee;
+}
+
+header {
+    text-align: center;
+    h1 {
+        color: #880;
+    }
+    p {
+        font-size: 20px;
+    }
+    a {
+        color: #ff6;
+    }
+}
+
+footer {
+    h1 {
+        color: #ff6;
+    }
+    p {
+        font-size: 12px;
+    }
+    a {
+        color: #0f0;
+        font-size: 20px;
+    }
+}
+
+section {
+    h1 {
+        font-family: "Courier New", Courier, monospace;
+    }
+    p {
+        text-align: justify;
+    }
+    a {
+        color: #800;
+    }
+
+    article {
+        background-color: #880;
+
+        h1 {
+            color: #ff6;
+        }
+        p {
+            font-size: 12px;
+        }
+        a {
+            color: #fff;
+        }
+    }
+}

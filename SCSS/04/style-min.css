@@ -1,0 +1,1 @@
+section .odlomak{border:8px dotted #333}body{background-color:#eee;color:#333;font-family:sans-serif}@media(max-width: 599px){body{background-color:#ff0}}@media(min-width: 600px)and (max-width: 1023px){body{background-color:#639}}header{margin:20px}section{margin:2em auto;width:50%}section article{margin:5rem}

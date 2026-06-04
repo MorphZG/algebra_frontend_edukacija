@@ -1,0 +1,26 @@
+$color1: #eee;
+$color2: #333;
+$color3: #080;
+$color4: #baddad;
+$font1: Tahoma, sans-serif;
+$font2: monospace;
+
+body {
+    background-color: $color1;
+    color: $color2;
+    font-family: $font1;
+}
+
+h1 {
+    color: $color3;
+    background-color: $color4;
+}
+
+a {
+    font-family: $font2;
+}
+
+article {
+    margin: 1em;
+    border: 2px solid $color3;
+}
