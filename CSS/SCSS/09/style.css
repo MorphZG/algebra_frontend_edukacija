@@ -1,0 +1,12 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #eee;
+  color: #333;
+}
+
+div {
+  margin: 0 0 1em 0;
+  padding: 0;
+  background-color: rgb(211, 142, 142);
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */

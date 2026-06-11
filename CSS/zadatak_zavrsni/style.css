@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./assets/blur-clean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 100px;
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.flex-item {
+  padding: 100px;
+  margin: auto;
+  border: 10px solid #fff;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  aspect-ratio: 1/1;
+}
+.flex-item:first-child {
+  background-color: rgba(76.5, 76.5, 76.5, 0.7);
+}
+.flex-item:nth-child(2) {
+  background-color: rgba(114.75, 38.25, 38.25, 0.7);
+}
+.flex-item:nth-child(3) {
+  background-color: rgba(226.3125, 168.9375, 54.1875, 0.7);
+}/*# sourceMappingURL=style.css.map */

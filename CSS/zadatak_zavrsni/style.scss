@@ -1,0 +1,36 @@
+@import "base/colors";
+@import "base/reset";
+@import "abstracts/mixins";
+
+body {
+    background-image: url("./assets/blur-clean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 100px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.flex-item {
+    @include flex-item;
+
+    &:first-child {
+        background-color: rgba($color1, $alpha);
+    }
+
+    &:nth-child(2) {
+        background-color: rgba($color2, $alpha);
+    }
+
+    &:nth-child(3) {
+        background-color: rgba($color3, $alpha);
+    }
+}

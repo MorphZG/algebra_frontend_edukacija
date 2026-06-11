@@ -1,0 +1,9 @@
+@mixin flex-item() {
+    padding: 100px;
+    margin: auto;
+    border: 10px solid #fff;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    aspect-ratio: 1/1;
+}
