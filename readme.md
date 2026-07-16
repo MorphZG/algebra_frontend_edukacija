@@ -25,6 +25,10 @@ stream_url: https://algebra.adobeconnect.com/fedev226-h/
   - tablice: [index.html](./HTML%20struktura%20i%20sadrzaj/04_tablice.html)
   - obrasci: [index.html](./HTML%20struktura%20i%20sadrzaj/05_obrasci.html)
 
+- [CSS](./CSS/)
+
+- [Javascript](./javascript/)
+
 ### resources
 
 - stock images: "https://picsum.photos/"

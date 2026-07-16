@@ -1,3 +1,5 @@
+console.log("------script01.js----------")
+
 var dog = {
     size: { small: ["mirni", "agresivni"], large: ["mirni", "agresivni"] },
     color: ["dark", "light"],

@@ -1,3 +1,5 @@
+console.log("------script02.js----------")
+
 function promjenaVlasnistva(vlasnik, godina) {
     return;
 }
@@ -14,10 +16,10 @@ var nekretnina = {
             //logika za promjenu trenutniVlasnik
             //postavi godinu do za zadnjeg vlasnika u povijesti ako je bila null
             if (this.povijestVlasnistva.length > 0) {
-                let zadnjiUPOV =
+                let zadnji =
                     this.povijestVlasnistva[this.povijestVlasnistva.length - 1];
-                if (zadnjiUPOV.godinaDo === null) {
-                    zadnjiUPOV.godinaDo = godina;
+                if (zadnji.godinaDo === null) {
+                    zadnji.godinaDo = godina;
                 }
             }
 

@@ -1,0 +1,22 @@
+.breeds {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	border: 1px solid;
+}
+
+.card h2 {
+	margin: 0;
+}
+
+.card img {
+	max-width: 10rem;
+	margin: auto;
+}
