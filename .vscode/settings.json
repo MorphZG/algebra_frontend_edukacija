@@ -85,7 +85,7 @@
     ],
     "liveSassCompile.settings.showOutputWindowOn": "Warning",
     "liveSassCompile.settings.useNewCompiler": true,
-    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
     "markdown.preview.fontSize": 13,
