@@ -1,0 +1,15 @@
+.removeButton {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: red;
+  margin-left: 10px;
+}
+
+.todoList li {
+  list-style-type: none;
+}
+
+.todoList li.done {
+  text-decoration: line-through;
+}

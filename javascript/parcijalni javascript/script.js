@@ -1,0 +1,1 @@
+Napisite aplikaciju koja po trazenom terminu izlistava pogodene pofa
