@@ -58,7 +58,6 @@
     "vim.useSystemClipboard": true,
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "$HOME/.vimrc",
-    "workbench.externalBrowser": "chrome",
     "workbench.browser.openLocalhostLinks": true,
-    
+    "workbench.externalBrowser": "chrome"
 }
