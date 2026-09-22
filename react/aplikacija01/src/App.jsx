@@ -1,10 +1,19 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Vjezba from "./Components/Random";
+import Random from "./Components/Random";
 import { Name } from "./Components/Name";
 import { Komponenta1, Komponenta2, Komponenta3, Komponenta4, Komponenta5 } from "./Components";
-import { Funkcijska, Klasna, KorisniciFunkcija, KorisniciClass, KorisniciDjeca, KorisniciState, VjezbanjeState } from "./Components2";
+import {
+    Funkcijska,
+    Klasna,
+    KorisniciFunkcija,
+    KorisniciClass,
+    KorisniciDjeca,
+    ButtonState,
+    VjezbaProps,
+    VjezbaState,
+} from "./Components2";
 
 function ConditionalRendering(props) {
     // jsx does not support if blocks
@@ -21,16 +30,23 @@ function ConditionalRendering(props) {
 
 function WelcomeFunkcija(props) {
     const { name } = props;
-    return <h3>Ja sam funkcija {name}</h3>;
+    return (
+        <>
+            <h3>Ja sam funkcija {name}</h3>
+            <h2>Ja sam funkcija {props.ime}</h2>
+        </>
+    );
 }
 
 class WelcomeKlasa extends React.Component {
     render() {
-        const { name } = this.props;
+        const { ime, prezime } = this.props;
         return (
             <>
-                <h3>Ja sam klasa {name}</h3>;
-                <h4>Ovo je moj prop: {this.props.prezime}</h4>
+                <h3>Ja sam klasa {ime}</h3>
+                <h4>Ovo je moj prop: {prezime}</h4>
+                <h2>Ja sam klasa {this.props.name}</h2>
+                <h4>Ovo je moj prop: {this.props.surname}</h4>
             </>
         );
     }
@@ -49,7 +65,7 @@ function App() {
                 <img src={logo} className="App-logo" alt="logo" />
 
                 <div className="zadatak">
-                    <Vjezba />
+                    <Random />
                     <Name />
                 </div>
 
@@ -61,11 +77,13 @@ function App() {
                     <Komponenta5 />
                 </div>
 
-                <ConditionalRendering broj={101} />
+                <div className="zadatak">
+                    <ConditionalRendering broj={101} />
+                </div>
 
                 <div className="zadatak">
-                    <WelcomeFunkcija />
-                    <WelcomeKlasa prezime={"nesto"} />
+                    <WelcomeFunkcija name={'kolibric'} ime={'djetlic'}/>
+                    <WelcomeKlasa ime={"nekakva"} prezime={"nesto"} name={"name"} surname={"surname"} />
                 </div>
 
                 <div className="zadatak">
@@ -76,16 +94,16 @@ function App() {
                 <div className="zadatak">
                     <KorisniciFunkcija ime={korisnici[0].imena} god={korisnici[0].godine} />
                     <KorisniciClass ime={korisnici[1].imena} god={korisnici[1].godine} />
-                    <KorisniciDjeca ime={korisnici[2].imena} god={korisnici[2].godine}>
-                        Hobi mi je plivanje
-                    </KorisniciDjeca>
+                    <KorisniciDjeca ime={korisnici[2].imena} god={korisnici[2].godine} />
+                </div>
 
-                    <div className="zadatak">
-                        <KorisniciState />
-                    </div>
-                    <div className="zadatak">
-                        <VjezbanjeState />
-                    </div>
+                <div className="zadatak">
+                    <ButtonState />
+                </div>
+
+                <div className="zadatak">
+                    <VjezbaProps message={"visitor"}/>
+                    <VjezbaState />
                 </div>
             </header>
         </div>

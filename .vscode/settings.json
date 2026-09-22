@@ -33,7 +33,7 @@
         "editor.tabSize": 2,
         "prettier.printWidth": 120
     },
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
