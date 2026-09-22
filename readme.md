@@ -29,7 +29,15 @@ stream_url: https://algebra.adobeconnect.com/fedev226-h/
 
 - [Javascript](./javascript/)
 
-### resources
+- [React](./react/)
 
-- stock images: "https://picsum.photos/"
-- svg tutorial: "https://www.w3schools.com/graphics/svg_intro.asp"
+### External Resources
+
+- stock images: [picsum.photos](https://picsum.photos/)
+- svg tutorial: [w3schools.com](https://www.w3schools.com/graphics/svg_intro.asp)
+- ReactJS dokumentacija [react.dev](https://react.dev)
+
+- [frontendmentor.io](https://www.frontendmentor.io/)
+- [MDN web documentation](https://developer.mozilla.org)
+- [w3schools](https://www.w3schools.com/)
+- [web.dev](https://web.dev/)
