@@ -26,6 +26,7 @@ stream_url: https://algebra.adobeconnect.com/fedev226-h/
   - obrasci: [index.html](./HTML%20struktura%20i%20sadrzaj/05_obrasci.html)
 
 - [CSS](./CSS/)
+  - third party vjezbe za css [frontendmentor.io/challenges](https://www.frontendmentor.io/challenges?difficulty=1%2C2&type=free)
 
 - [Javascript](./javascript/)
 
