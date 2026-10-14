@@ -1,49 +1,69 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 10vmin;
-  pointer-events: none;
+    height: 10vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 0.7s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 0.7s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .zadatak {
-  border: #61dafb solid 3px;
-  padding: 50px;
-  margin: 50px;
+    border: #61dafb solid 3px;
+    padding: 50px;
+    margin: 50px;
+
+    &::before {
+        content: "Zadatak";
+        font-size: 1rem;
+    }
 }
 
-.zadatak::before {
-  content: "Zadatak";
-  font-size: 1rem;
+.button-light {
+  padding: 1rem 2rem;
+  color: blue;
+  background-color: white;
+}
+.button-dark {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: blue;
+}
+
+.panel-light {
+  padding: 1rem 2rem;
+  background-color: rgb(58, 16, 16);
+}
+.button-dark {
+  padding: 1rem 2rem;
+  background-color: rgb(177, 171, 151);
 }
