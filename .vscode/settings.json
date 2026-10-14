@@ -28,7 +28,7 @@
         "editor.detectIndentation": false,
         "editor.indentSize": 2,
         "editor.rulers": [
-            120
+            100
         ],
         "editor.tabSize": 2,
         "prettier.printWidth": 120
